@@ -21,6 +21,7 @@ public class AppTest {
         HelloWorld leaf =
                 applicationContext.getBean(HelloWorld.class);
 
+
         Cat one = applicationContext.getBean(Cat.class);
         Cat two = applicationContext.getBean(Cat.class);
 
