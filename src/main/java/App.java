@@ -15,7 +15,6 @@ public class App {
 
         Cat catBean = (Cat) applicationContext.getBean("cat");
         Cat catBean2 = (Cat) applicationContext.getBean("cat");
-
         System.out.println("Равны ли бины Cat между собой? - " + (catBean == catBean2));
     }
 }
